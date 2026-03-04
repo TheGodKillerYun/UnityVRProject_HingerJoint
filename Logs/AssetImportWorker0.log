@@ -1,9 +1,9 @@
-[Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.3f1 (ef04196de0d6) revision 15664153'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 15610 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-03-01T00:49:54Z
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-thego" at "2026-03-01T00:49:54.1503584Z"
+Date: 2026-03-03T23:23:27Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-thego" at "2026-03-03T23:23:27.549426Z"
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.3f1-x86_64\Editor\Unity.exe
@@ -17,7 +17,7 @@ C:/Users/thego/Desktop/Unity2026/RV_U2A11
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62844
+51718
 -licensingIpc
 LicenseClient-thego
 -job-worker-count
@@ -65,12 +65,12 @@ C:/Users/thego/Desktop/Unity2026/RV_U2A11
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [15688]  Target information:
+Player connection [22352]  Target information:
 
-Player connection [15688]  * "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 3658269166 [EditorId] 3658269166 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-I0DK21O9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22352]  * "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 2124501143 [EditorId] 2124501143 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-I0DK21O9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15688] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [15688] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22352] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22352] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -82,24 +82,16 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-[Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              34987ae684be4c8bb0bc0da646bafa5b
-  Correlation Id:          38333bc8c57ab8593d73b816f3b7eca6
-  External correlation Id: 6036945560535565712
+  Session Id:              c5bfa95081d745cea4d7c0937a03b30b
+  Correlation Id:          1a81cebaeaeebf5365bae16653a9f5d1
+  External correlation Id: 5883919625319699138
   Machine Id:              3x09T5dcDjyc+NKnDRBwnIVraWk=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-thego" (connect: 0.01s, validation: 0.03s, handshake: 2.99s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-thego-notifications" at "2026-03-01T00:49:57.1766057Z"
-[Licensing::Module] Licensing Background thread has ended after 3.03s
-[Licensing::Module] Licensing is initialized (took 2.39s).
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: 4674149428689-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Refreshing native plugins compatible for Editor in 131.84 ms, found 10 plugins.
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-thego" (connect: 0.00s, validation: 0.00s, handshake: 1.94s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-thego-notifications" at "2026-03-03T23:23:29.4969565Z"
+[Licensing::Module] Licensing Background thread has ended after 1.95s
+Refreshing native plugins compatible for Editor in 1781.30 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.3f1 (ef04196de0d6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.3f1-x86_64/Editor/Data/Resources/UnitySubsystems
@@ -115,48 +107,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1-x86_64/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.3f1-x86_64/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.3f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674149428689-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.3f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.005760 seconds.
-- Loaded All Assemblies, in  1.222 seconds
+Registered in 1.363565 seconds.
+- Loaded All Assemblies, in 31.546 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 687 ms
+Android Extension - Scanning For ADB Devices 636 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.973 seconds
-Domain Reload Profiling: 3191ms
-	BeginReloadAssembly (526ms)
+- Finished resetting the current domain, in  1.549 seconds
+Domain Reload Profiling: 33091ms
+	BeginReloadAssembly (23884ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (143ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (108ms)
-	LoadAllAssembliesAndSetupDomain (410ms)
-		LoadAssemblies (520ms)
+	RebuildCommonClasses (1110ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (1440ms)
+	LoadAllAssembliesAndSetupDomain (5081ms)
+		LoadAssemblies (23919ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (403ms)
-			TypeCache.Refresh (399ms)
-				TypeCache.ScanAssembly (363ms)
+		AnalyzeDomain (5037ms)
+			TypeCache.Refresh (5032ms)
+				TypeCache.ScanAssembly (4237ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1974ms)
+	FinalizeReload (1549ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1850ms)
+		SetupLoadedEditorAssemblies (1449ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (882ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (256ms)
-			ProcessInitializeOnLoadAttributes (516ms)
-			ProcessInitializeOnLoadMethodAttributes (185ms)
+			InitializePlatformSupportModulesInManaged (807ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -166,8 +164,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  2.651 seconds
-Refreshing native plugins compatible for Editor in 40.62 ms, found 10 plugins.
+- Loaded All Assemblies, in 27.245 seconds
+Refreshing native plugins compatible for Editor in 23.08 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -182,140 +180,2097 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  4.003 seconds
-Domain Reload Profiling: 6648ms
-	BeginReloadAssembly (414ms)
+- Finished resetting the current domain, in  3.894 seconds
+Domain Reload Profiling: 31132ms
+	BeginReloadAssembly (365ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (26707ms)
+		LoadAssemblies (25208ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1682ms)
+			TypeCache.Refresh (1545ms)
+				TypeCache.ScanAssembly (1516ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (3895ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2247ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (343ms)
+			ProcessInitializeOnLoadAttributes (1579ms)
+			ProcessInitializeOnLoadMethodAttributes (283ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 28.68 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7475 unused Assets / (4.0 MB). Loaded Objects now: 8295.
+Memory consumption went from 151.2 MB to 147.3 MB.
+Total: 26.451100 ms (FindLiveObjects: 1.781800 ms CreateObjectMapping: 2.462600 ms MarkObjects: 14.991800 ms  DeleteObjects: 7.193700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 32502.532996 seconds.
+  path: Assets/Scenes/04_HingeJoint.unity
+  artifactKey: Guid(e9fa119fca00292449b7c33cec18fc42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/04_HingeJoint.unity using Guid(e9fa119fca00292449b7c33cec18fc42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2bad9e06a6f77f567893c7d831ac779') in 0.1578932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.554032 seconds.
+  path: Assets/Scenes/04_HingeJoint.unity
+  artifactKey: Guid(e9fa119fca00292449b7c33cec18fc42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/04_HingeJoint.unity using Guid(e9fa119fca00292449b7c33cec18fc42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4d7b4077a98725d683a2c1026cc23fd') in 0.0256299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.824240 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0014652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.731230 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(008e84646f05acf4fb5db0dfafb5ee22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(008e84646f05acf4fb5db0dfafb5ee22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb8c33a49324ce8c7eab369dbae46cde') in 0.0014563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.782664 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(008e84646f05acf4fb5db0dfafb5ee22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts using Guid(008e84646f05acf4fb5db0dfafb5ee22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bfa4c420bf1184ff48fc0cf1ec7ac5d5') in 0.0218895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.214 seconds
+Refreshing native plugins compatible for Editor in 19.75 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.107 seconds
+Domain Reload Profiling: 5315ms
+	BeginReloadAssembly (618ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (157ms)
+	RebuildCommonClasses (114ms)
+	RebuildNativeTypeToScriptingClass (57ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (1336ms)
+		LoadAssemblies (1028ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (554ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (484ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (3107ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2481ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (471ms)
+			ProcessInitializeOnLoadAttributes (1681ms)
+			ProcessInitializeOnLoadMethodAttributes (268ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 27.93 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7609 unused Assets / (6.6 MB). Loaded Objects now: 8314.
+Memory consumption went from 200.3 MB to 193.6 MB.
+Total: 25.617300 ms (FindLiveObjects: 1.457800 ms CreateObjectMapping: 1.976400 ms MarkObjects: 13.136700 ms  DeleteObjects: 9.044200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 129.953384 seconds.
+  path: Assets/Scripts/luces.cs
+  artifactKey: Guid(7da642615001c1a409e27f8f30e56f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/luces.cs using Guid(7da642615001c1a409e27f8f30e56f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd488cc1b2e18c9fa9209b71a15ecf999') in 0.007278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.487 seconds
+Refreshing native plugins compatible for Editor in 12.63 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.055 seconds
+Domain Reload Profiling: 3545ms
+	BeginReloadAssembly (444ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (113ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (914ms)
+		LoadAssemblies (693ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (415ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (361ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2056ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1666ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (398ms)
+			ProcessInitializeOnLoadAttributes (973ms)
+			ProcessInitializeOnLoadMethodAttributes (257ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 19.27 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7609 unused Assets / (6.9 MB). Loaded Objects now: 8317.
+Memory consumption went from 200.3 MB to 193.3 MB.
+Total: 26.777200 ms (FindLiveObjects: 1.514000 ms CreateObjectMapping: 1.841200 ms MarkObjects: 13.828100 ms  DeleteObjects: 9.591600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.498 seconds
+Refreshing native plugins compatible for Editor in 16.62 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.967 seconds
+Domain Reload Profiling: 3463ms
+	BeginReloadAssembly (486ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (104ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (871ms)
+		LoadAssemblies (617ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (405ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (359ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1968ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (315ms)
+			ProcessInitializeOnLoadAttributes (944ms)
+			ProcessInitializeOnLoadMethodAttributes (261ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 30.16 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7609 unused Assets / (6.4 MB). Loaded Objects now: 8320.
+Memory consumption went from 200.3 MB to 193.9 MB.
+Total: 31.219700 ms (FindLiveObjects: 2.437600 ms CreateObjectMapping: 3.591500 ms MarkObjects: 15.258100 ms  DeleteObjects: 9.930000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.360 seconds
+Refreshing native plugins compatible for Editor in 19.04 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.812 seconds
+Domain Reload Profiling: 3175ms
+	BeginReloadAssembly (425ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (115ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (795ms)
+		LoadAssemblies (587ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (357ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (320ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1813ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1510ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (333ms)
+			ProcessInitializeOnLoadAttributes (936ms)
+			ProcessInitializeOnLoadMethodAttributes (210ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 15.29 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7609 unused Assets / (7.3 MB). Loaded Objects now: 8323.
+Memory consumption went from 200.3 MB to 193.1 MB.
+Total: 23.318300 ms (FindLiveObjects: 1.556600 ms CreateObjectMapping: 1.781400 ms MarkObjects: 10.586300 ms  DeleteObjects: 9.391600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 702.316500 seconds.
+  path: Assets/Scripts/luces.cs
+  artifactKey: Guid(7da642615001c1a409e27f8f30e56f3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/luces.cs using Guid(7da642615001c1a409e27f8f30e56f3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d9352395c6e3699f0729a742b722e5b') in 0.2257835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.999549 seconds.
+  path: Assets/Imagenes
+  artifactKey: Guid(45fc78e32065fd04c8169a7e20b97288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes using Guid(45fc78e32065fd04c8169a7e20b97288) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33c8ca7d61619e384c6bea86003c11d5') in 0.0016062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.791887 seconds.
+  path: Assets/Imagenes
+  artifactKey: Guid(45fc78e32065fd04c8169a7e20b97288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imagenes using Guid(45fc78e32065fd04c8169a7e20b97288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd6ce1d784302f0dd0521d8c0522b4e2d') in 0.0230598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.147197 seconds.
+  path: Assets/Imagenes/iconMagicus.png
+  artifactKey: Guid(0c9d6fff29d477841ae818a1efd04d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/iconMagicus.png using Guid(0c9d6fff29d477841ae818a1efd04d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '51c1bb287749c39a79a398b32acafc4f') in 0.1572106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.596856 seconds.
+  path: Assets/Imagenes/introImage.png
+  artifactKey: Guid(8dcdd8b37468bb2409308a3ccb8414fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Imagenes/introImage.png using Guid(8dcdd8b37468bb2409308a3ccb8414fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '980b9e996d2da492aa05bd6bd63a76c8') in 0.1447908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.441 seconds
+Refreshing native plugins compatible for Editor in 18.16 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.975 seconds
+Domain Reload Profiling: 3407ms
+	BeginReloadAssembly (398ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (868ms)
+		LoadAssemblies (684ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (352ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (4ms)
+			BuildScriptInfoCaches (299ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1976ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1616ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (308ms)
+			ProcessInitializeOnLoadAttributes (958ms)
+			ProcessInitializeOnLoadMethodAttributes (308ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 20.75 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7663 unused Assets / (6.3 MB). Loaded Objects now: 8383.
+Memory consumption went from 200.9 MB to 194.7 MB.
+Total: 25.134400 ms (FindLiveObjects: 1.558000 ms CreateObjectMapping: 1.908800 ms MarkObjects: 13.232500 ms  DeleteObjects: 8.432600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 43.541824 seconds.
+  path: Assets/Imagenes/iconMagicus.png
+  artifactKey: Guid(0c9d6fff29d477841ae818a1efd04d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/iconMagicus.png using Guid(0c9d6fff29d477841ae818a1efd04d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd661176505a3e4c3bc757a4748e24afb') in 0.1189892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.524876 seconds.
+  path: Assets/Imagenes/iconMagicus.png
+  artifactKey: Guid(0c9d6fff29d477841ae818a1efd04d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/iconMagicus.png using Guid(0c9d6fff29d477841ae818a1efd04d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '867d1035e0f3787012fe4ebdecd6ba06') in 0.1376087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.906654 seconds.
+  path: Assets/Imagenes/introImage.png
+  artifactKey: Guid(8dcdd8b37468bb2409308a3ccb8414fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/introImage.png using Guid(8dcdd8b37468bb2409308a3ccb8414fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7899a55eff07f0bd77fa588d9d97c2a8') in 0.0324413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.518034 seconds.
+  path: Assets/Imagenes/introImage.png
+  artifactKey: Guid(8dcdd8b37468bb2409308a3ccb8414fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/introImage.png using Guid(8dcdd8b37468bb2409308a3ccb8414fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '945ecbfaab12509bf22045479806ad98') in 0.0499077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 31.70 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7459 unused Assets / (4.7 MB). Loaded Objects now: 8374.
+Memory consumption went from 158.3 MB to 153.6 MB.
+Total: 29.393700 ms (FindLiveObjects: 2.130400 ms CreateObjectMapping: 2.526000 ms MarkObjects: 17.512400 ms  DeleteObjects: 7.222000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.432 seconds
+Refreshing native plugins compatible for Editor in 13.18 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.061 seconds
+Domain Reload Profiling: 3492ms
+	BeginReloadAssembly (400ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (98ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (871ms)
+		LoadAssemblies (681ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (360ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (311ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2062ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1700ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (305ms)
+			ProcessInitializeOnLoadAttributes (1080ms)
+			ProcessInitializeOnLoadMethodAttributes (280ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 14.49 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7663 unused Assets / (6.6 MB). Loaded Objects now: 8388.
+Memory consumption went from 201.0 MB to 194.4 MB.
+Total: 20.038000 ms (FindLiveObjects: 1.495100 ms CreateObjectMapping: 1.816000 ms MarkObjects: 10.017700 ms  DeleteObjects: 6.706600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 80.685809 seconds.
+  path: Assets/Sound/success.mp3
+  artifactKey: Guid(5c8bca09b5af29948b99c8d13e1da6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/success.mp3 using Guid(5c8bca09b5af29948b99c8d13e1da6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8390662b19cea2cdbb58fbcaf2af9005') in 0.2666548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sound/The Oh Hellos - Soldier, Poet, King (Official Lyric Video) - The Oh Hellos.mp3
+  artifactKey: Guid(c408d303c222aa64685ab8d85b5ad439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/The Oh Hellos - Soldier, Poet, King (Official Lyric Video) - The Oh Hellos.mp3 using Guid(c408d303c222aa64685ab8d85b5ad439) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '944d4962e97045767bc1f8e814a10552') in 0.0651813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 707.943487 seconds.
+  path: Assets/Resources/Sound
+  artifactKey: Guid(bdcdb65d8427ec44c90518eba3b8eda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sound using Guid(bdcdb65d8427ec44c90518eba3b8eda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ff5365d766a47479e4415f0cfef012a') in 0.0015037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.028307 seconds.
+  path: Assets/Resources/Sound/01. Backstreets Story Theme.mp3
+  artifactKey: Guid(36642149725122c4ca40179999ebc344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sound/01. Backstreets Story Theme.mp3 using Guid(36642149725122c4ca40179999ebc344) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65805064297f63d2f6202c30b3568718') in 0.0466019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.288245 seconds.
+  path: Assets/Resources/Imagenes/iconMagicus.png
+  artifactKey: Guid(0c9d6fff29d477841ae818a1efd04d2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Imagenes/iconMagicus.png using Guid(0c9d6fff29d477841ae818a1efd04d2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca346580d9cf805cbf9c44be3526dccc') in 0.4466571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/Skybox/FS003_Rainy.mat
+  artifactKey: Guid(e0a21ebc98cee4e46bbae873ec0be703) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Skybox/FS003_Rainy.mat using Guid(e0a21ebc98cee4e46bbae873ec0be703) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3709d6db5c2db0cf39076b7c0898d934') in 0.1031688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Resources/Imagenes
+  artifactKey: Guid(45fc78e32065fd04c8169a7e20b97288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Imagenes using Guid(45fc78e32065fd04c8169a7e20b97288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8688ea799a724d678719ad14375afdca') in 0.0312609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/Sound/The Oh Hellos - Soldier, Poet, King (Official Lyric Video) - The Oh Hellos.mp3
+  artifactKey: Guid(c408d303c222aa64685ab8d85b5ad439) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Sound/The Oh Hellos - Soldier, Poet, King (Official Lyric Video) - The Oh Hellos.mp3 using Guid(c408d303c222aa64685ab8d85b5ad439) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2987bc780a61353d816035aeb6d19e70') in 0.127557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Resources/Sound/01. Backstreets Story Theme.mp3
+  artifactKey: Guid(36642149725122c4ca40179999ebc344) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Sound/01. Backstreets Story Theme.mp3 using Guid(36642149725122c4ca40179999ebc344) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e1dca6d015730dbbccc8fd27931c9c4') in 0.0827168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Resources/Skybox
+  artifactKey: Guid(7a4f67bf6945e66439b4493de2987473) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Skybox using Guid(7a4f67bf6945e66439b4493de2987473) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a88deaa1a734c53ae17766ace87dcef3') in 0.0275842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/Scripts/luces.cs
+  artifactKey: Guid(7da642615001c1a409e27f8f30e56f3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Scripts/luces.cs using Guid(7da642615001c1a409e27f8f30e56f3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b3e28c777fbf517ebafc114c517873ae') in 0.0336859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Animations/Abrir.anim
+  artifactKey: Guid(61d5d3d9be8a6e04e8d89cc2034466b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Animations/Abrir.anim using Guid(61d5d3d9be8a6e04e8d89cc2034466b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1930d812e56902f4ab16eeed37415bd') in 0.073028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Resources/Scripts
+  artifactKey: Guid(008e84646f05acf4fb5db0dfafb5ee22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Scripts using Guid(008e84646f05acf4fb5db0dfafb5ee22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da6bb91ab7bff559a31a2dd69fe06454') in 0.0300232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Animations/Cerrar.anim
+  artifactKey: Guid(f3b2cb2fd69d97d43af17ce276881721) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Animations/Cerrar.anim using Guid(f3b2cb2fd69d97d43af17ce276881721) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ffe84cb309842b8bac47475f6c539f64') in 0.039436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.736936 seconds.
+  path: Assets/Scenes/04_HingeJoint.unity
+  artifactKey: Guid(e9fa119fca00292449b7c33cec18fc42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/04_HingeJoint.unity using Guid(e9fa119fca00292449b7c33cec18fc42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4700091a1685d3de3fa40b12e55fd34b') in 0.0559289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.885475 seconds.
+  path: Assets/Scenes/04_HingeJoint.unity
+  artifactKey: Guid(e9fa119fca00292449b7c33cec18fc42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/04_HingeJoint.unity using Guid(e9fa119fca00292449b7c33cec18fc42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1cce4144d6198b2e925316274dd8f307') in 0.0371906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.605 seconds
+Refreshing native plugins compatible for Editor in 30.25 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.351 seconds
+Domain Reload Profiling: 5951ms
+	BeginReloadAssembly (743ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (167ms)
+	RebuildCommonClasses (108ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (1619ms)
+		LoadAssemblies (1172ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (756ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (667ms)
+			ResolveRequiredComponents (48ms)
+	FinalizeReload (3352ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2802ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (560ms)
+			ProcessInitializeOnLoadAttributes (1683ms)
+			ProcessInitializeOnLoadMethodAttributes (483ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Refreshing native plugins compatible for Editor in 39.35 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7663 unused Assets / (6.3 MB). Loaded Objects now: 8397.
+Memory consumption went from 201.2 MB to 194.9 MB.
+Total: 36.401300 ms (FindLiveObjects: 2.798800 ms CreateObjectMapping: 3.603000 ms MarkObjects: 18.318700 ms  DeleteObjects: 11.677200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 150.535789 seconds.
+  path: Assets/Resources/Skybox/FS003_Rainy.mat
+  artifactKey: Guid(e0a21ebc98cee4e46bbae873ec0be703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Skybox/FS003_Rainy.mat using Guid(e0a21ebc98cee4e46bbae873ec0be703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cce52c22dfd692c2d90c60b36e18dbae') in 1.5467412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 39.57 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7460 unused Assets / (5.3 MB). Loaded Objects now: 8534.
+Memory consumption went from 164.5 MB to 159.2 MB.
+Total: 41.732900 ms (FindLiveObjects: 2.518500 ms CreateObjectMapping: 3.671100 ms MarkObjects: 25.286900 ms  DeleteObjects: 10.253500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 49.61 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7461 unused Assets / (4.1 MB). Loaded Objects now: 8535.
+Memory consumption went from 164.5 MB to 160.4 MB.
+Total: 46.216300 ms (FindLiveObjects: 2.948500 ms CreateObjectMapping: 3.908500 ms MarkObjects: 22.279500 ms  DeleteObjects: 17.076800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.830917 seconds.
+  path: Assets/Resources/Scripts/Scripts
+  artifactKey: Guid(ab30668308f97e24ca74dbe6d9bb0114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/Scripts using Guid(ab30668308f97e24ca74dbe6d9bb0114) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e19f920df2667b4fbb3c6c5cfffc2fc') in 0.0016926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 41.21 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7460 unused Assets / (5.0 MB). Loaded Objects now: 8534.
+Memory consumption went from 164.5 MB to 159.5 MB.
+Total: 35.433300 ms (FindLiveObjects: 3.301200 ms CreateObjectMapping: 3.768000 ms MarkObjects: 19.264400 ms  DeleteObjects: 9.096800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.431797 seconds.
+  path: Assets/Resources/Scripts/luces1.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/luces1.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4e51363318869655d2c8de8dc4a8e92') in 0.0026603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.870631 seconds.
+  path: Assets/Resources/Scripts/luces1.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Scripts/luces1.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8cf385eb136f87b4a4723dc46a1cd6fc') in 0.3490565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 38.76 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7460 unused Assets / (4.3 MB). Loaded Objects now: 8534.
+Memory consumption went from 164.6 MB to 160.2 MB.
+Total: 41.727000 ms (FindLiveObjects: 2.315900 ms CreateObjectMapping: 3.953000 ms MarkObjects: 22.216800 ms  DeleteObjects: 13.238400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.303284 seconds.
+  path: Assets/Resources/Scripts/objetoPortal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/objetoPortal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8081f142596fead956cc3d466168685f') in 0.0018765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.438 seconds
+Refreshing native plugins compatible for Editor in 33.29 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.418 seconds
+Domain Reload Profiling: 5853ms
+	BeginReloadAssembly (745ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (68ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (149ms)
+	RebuildCommonClasses (116ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (1452ms)
+		LoadAssemblies (1107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (661ms)
+			TypeCache.Refresh (31ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (580ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (3420ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2845ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (579ms)
+			ProcessInitializeOnLoadAttributes (1720ms)
+			ProcessInitializeOnLoadMethodAttributes (471ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (48ms)
+Refreshing native plugins compatible for Editor in 67.21 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7664 unused Assets / (6.3 MB). Loaded Objects now: 8457.
+Memory consumption went from 202.9 MB to 196.6 MB.
+Total: 71.584700 ms (FindLiveObjects: 5.604500 ms CreateObjectMapping: 10.500000 ms MarkObjects: 40.288500 ms  DeleteObjects: 15.188900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 204.001538 seconds.
+  path: Assets/Resources/Scripts/objetoPortal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Scripts/objetoPortal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04d950b6521703a2eefd4b9336f8655e') in 0.2156426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 27.35 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7460 unused Assets / (5.5 MB). Loaded Objects now: 8445.
+Memory consumption went from 159.8 MB to 154.2 MB.
+Total: 29.208400 ms (FindLiveObjects: 1.966900 ms CreateObjectMapping: 2.428300 ms MarkObjects: 15.884300 ms  DeleteObjects: 8.925700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.151322 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59bd0fad0d995999f2b5cc79580bf311') in 0.0458608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.848 seconds
+Refreshing native plugins compatible for Editor in 40.04 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  4.081 seconds
+Domain Reload Profiling: 6921ms
+	BeginReloadAssembly (802ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (227ms)
+	RebuildCommonClasses (144ms)
+	RebuildNativeTypeToScriptingClass (53ms)
+	initialDomainReloadingComplete (134ms)
+	LoadAllAssembliesAndSetupDomain (1705ms)
+		LoadAssemblies (1223ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (794ms)
+			TypeCache.Refresh (34ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (702ms)
+			ResolveRequiredComponents (43ms)
+	FinalizeReload (4083ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3301ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (750ms)
+			ProcessInitializeOnLoadAttributes (2012ms)
+			ProcessInitializeOnLoadMethodAttributes (458ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (64ms)
+Refreshing native plugins compatible for Editor in 26.79 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7664 unused Assets / (6.5 MB). Loaded Objects now: 8460.
+Memory consumption went from 202.8 MB to 196.3 MB.
+Total: 35.892200 ms (FindLiveObjects: 2.393000 ms CreateObjectMapping: 3.417900 ms MarkObjects: 18.130900 ms  DeleteObjects: 11.947600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 33.525351 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0056061 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0021277 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015092 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0019024 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001335 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0019463 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001799 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001664 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001425 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016577 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0017102 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015507 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013881 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0017289 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016689 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015354 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0017169 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014785 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001286 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013813 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001505 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016584 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0018364 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001685 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0018049 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014794 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001336 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016903 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0036064 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014522 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016276 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015733 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016961 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012464 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015678 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0017313 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0021432 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013236 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0017457 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012732 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015143 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015044 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001213 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015444 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015919 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013406 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013294 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014899 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014787 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0021618 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013513 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016816 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0022007 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015293 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012684 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0023269 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013115 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0021398 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015027 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013582 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0024645 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016756 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016216 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016393 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016429 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013854 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014676 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014438 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+  ERROR: Build asset version error: assets/resources/scripts/portal.cs in SourceAssetDB has modification time of '2026-03-04T00:02:07.7607264Z' while content on disk has modification time of '2026-03-04T00:05:23.0645974Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.463 seconds
+Refreshing native plugins compatible for Editor in 26.73 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.387 seconds
+Domain Reload Profiling: 5839ms
+	BeginReloadAssembly (659ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (139ms)
+	RebuildCommonClasses (143ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (97ms)
+	LoadAllAssembliesAndSetupDomain (1514ms)
+		LoadAssemblies (1105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (686ms)
+			TypeCache.Refresh (30ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (601ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (3388ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2829ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (604ms)
+			ProcessInitializeOnLoadAttributes (1706ms)
+			ProcessInitializeOnLoadMethodAttributes (449ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (52ms)
+Refreshing native plugins compatible for Editor in 44.30 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7664 unused Assets / (6.3 MB). Loaded Objects now: 8463.
+Memory consumption went from 202.9 MB to 196.6 MB.
+Total: 36.452100 ms (FindLiveObjects: 2.379700 ms CreateObjectMapping: 3.161400 ms MarkObjects: 19.991800 ms  DeleteObjects: 10.916400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.552294 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2edd1e3139b5c77a53c8c0b5ead66a4d') in 0.006072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.921 seconds
+Refreshing native plugins compatible for Editor in 25.17 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.612 seconds
+Domain Reload Profiling: 6529ms
+	BeginReloadAssembly (813ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (177ms)
+	RebuildCommonClasses (113ms)
+	RebuildNativeTypeToScriptingClass (57ms)
+	initialDomainReloadingComplete (122ms)
+	LoadAllAssembliesAndSetupDomain (1811ms)
+		LoadAssemblies (1383ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (804ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (708ms)
+			ResolveRequiredComponents (64ms)
+	FinalizeReload (3613ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3013ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (671ms)
+			ProcessInitializeOnLoadAttributes (1805ms)
+			ProcessInitializeOnLoadMethodAttributes (474ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (51ms)
+Refreshing native plugins compatible for Editor in 38.78 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7664 unused Assets / (6.8 MB). Loaded Objects now: 8466.
+Memory consumption went from 202.9 MB to 196.1 MB.
+Total: 31.044000 ms (FindLiveObjects: 2.226300 ms CreateObjectMapping: 3.742000 ms MarkObjects: 15.452900 ms  DeleteObjects: 9.619800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 523.973262 seconds.
+  path: Assets/Resources/Scripts/portal.cs
+  artifactKey: Guid(442826df24f93b0499607fc3a23432e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Scripts/portal.cs using Guid(442826df24f93b0499607fc3a23432e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa2add2f1c713993b69f6d2a06fdfa4e') in 0.2258259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 27.76 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7461 unused Assets / (5.0 MB). Loaded Objects now: 8455.
+Memory consumption went from 160.0 MB to 155.0 MB.
+Total: 27.704100 ms (FindLiveObjects: 1.867300 ms CreateObjectMapping: 2.055400 ms MarkObjects: 15.744100 ms  DeleteObjects: 8.034600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 41.88 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7462 unused Assets / (5.0 MB). Loaded Objects now: 8456.
+Memory consumption went from 160.0 MB to 154.9 MB.
+Total: 34.423400 ms (FindLiveObjects: 2.265800 ms CreateObjectMapping: 3.476200 ms MarkObjects: 18.250500 ms  DeleteObjects: 10.428000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.839206 seconds.
+  path: Assets/Resources/Scripts/portal1.cs
+  artifactKey: Guid(101b4e2691b8abd46a949eea6020d133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/portal1.cs using Guid(101b4e2691b8abd46a949eea6020d133) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f6407b0adc91774638b1c5fb0f51deb') in 0.0020702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/Scripts/luces1.cs
+  artifactKey: Guid(76bfb893fceaa494aa1a75630a7c23eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Scripts/luces1.cs using Guid(76bfb893fceaa494aa1a75630a7c23eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9a6c4a614bd3f140a2d9a6ff5640d412') in 0.0319138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 31.17 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7461 unused Assets / (5.0 MB). Loaded Objects now: 8455.
+Memory consumption went from 160.0 MB to 154.9 MB.
+Total: 33.834600 ms (FindLiveObjects: 2.600200 ms CreateObjectMapping: 3.385200 ms MarkObjects: 19.839000 ms  DeleteObjects: 8.006200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.727694 seconds.
+  path: Assets/Resources/Scripts/luces1.cs
+  artifactKey: Guid(76bfb893fceaa494aa1a75630a7c23eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/luces1.cs using Guid(76bfb893fceaa494aa1a75630a7c23eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '534b74ec60a6488576731c9e6d6ab3a6') in 0.0016498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 57.59 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7461 unused Assets / (4.6 MB). Loaded Objects now: 8455.
+Memory consumption went from 160.0 MB to 155.3 MB.
+Total: 39.819200 ms (FindLiveObjects: 2.697500 ms CreateObjectMapping: 4.029800 ms MarkObjects: 23.452100 ms  DeleteObjects: 9.636700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.085657 seconds.
+  path: Assets/Resources/Scripts/mensaje.cs
+  artifactKey: Guid(76bfb893fceaa494aa1a75630a7c23eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Scripts/mensaje.cs using Guid(76bfb893fceaa494aa1a75630a7c23eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0ee3e91f93c77e9eadaf461ecf9fbd1') in 0.0334676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  3.053 seconds
+Refreshing native plugins compatible for Editor in 63.64 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.802 seconds
+Domain Reload Profiling: 6849ms
+	BeginReloadAssembly (839ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (230ms)
+	RebuildCommonClasses (173ms)
+	RebuildNativeTypeToScriptingClass (57ms)
+	initialDomainReloadingComplete (106ms)
+	LoadAllAssembliesAndSetupDomain (1871ms)
+		LoadAssemblies (1343ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (822ms)
+			TypeCache.Refresh (43ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (710ms)
+			ResolveRequiredComponents (53ms)
+	FinalizeReload (3803ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3152ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (635ms)
+			ProcessInitializeOnLoadAttributes (1896ms)
+			ProcessInitializeOnLoadMethodAttributes (549ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (60ms)
+Refreshing native plugins compatible for Editor in 54.45 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (6.8 MB). Loaded Objects now: 8470.
+Memory consumption went from 203.0 MB to 196.1 MB.
+Total: 42.636500 ms (FindLiveObjects: 2.703900 ms CreateObjectMapping: 3.683800 ms MarkObjects: 21.827400 ms  DeleteObjects: 14.417700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.497 seconds
+Refreshing native plugins compatible for Editor in 36.24 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.281 seconds
+Domain Reload Profiling: 5771ms
+	BeginReloadAssembly (666ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (134ms)
+	RebuildCommonClasses (132ms)
+	RebuildNativeTypeToScriptingClass (65ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (1520ms)
+		LoadAssemblies (1145ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (699ms)
+			TypeCache.Refresh (27ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (621ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (3282ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2716ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (582ms)
+			ProcessInitializeOnLoadAttributes (1641ms)
+			ProcessInitializeOnLoadMethodAttributes (443ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (49ms)
+Refreshing native plugins compatible for Editor in 34.90 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (5.8 MB). Loaded Objects now: 8473.
+Memory consumption went from 203.0 MB to 197.2 MB.
+Total: 31.888500 ms (FindLiveObjects: 1.982000 ms CreateObjectMapping: 2.540300 ms MarkObjects: 15.229100 ms  DeleteObjects: 12.133800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.205 seconds
+Refreshing native plugins compatible for Editor in 96.12 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.476 seconds
+Domain Reload Profiling: 5680ms
+	BeginReloadAssembly (554ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (128ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (1427ms)
+		LoadAssemblies (1075ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (592ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (517ms)
+			ResolveRequiredComponents (45ms)
+	FinalizeReload (3478ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2815ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (490ms)
+			ProcessInitializeOnLoadAttributes (1867ms)
+			ProcessInitializeOnLoadMethodAttributes (399ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (63ms)
+Refreshing native plugins compatible for Editor in 21.85 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (7.0 MB). Loaded Objects now: 8476.
+Memory consumption went from 203.2 MB to 196.2 MB.
+Total: 29.290600 ms (FindLiveObjects: 2.152400 ms CreateObjectMapping: 3.112800 ms MarkObjects: 14.530800 ms  DeleteObjects: 9.491600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.224 seconds
+Refreshing native plugins compatible for Editor in 30.59 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.982 seconds
+Domain Reload Profiling: 5175ms
+	BeginReloadAssembly (584ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (22ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (75ms)
-	RebuildCommonClasses (72ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (2056ms)
-		LoadAssemblies (1010ms)
+		CreateAndSetChildDomain (117ms)
+	RebuildCommonClasses (111ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (1359ms)
+		LoadAssemblies (1043ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1250ms)
-			TypeCache.Refresh (915ms)
-				TypeCache.ScanAssembly (863ms)
-			BuildScriptInfoCaches (292ms)
-			ResolveRequiredComponents (31ms)
-	FinalizeReload (4005ms)
+		AnalyzeDomain (580ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (520ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (2983ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3108ms)
+		SetupLoadedEditorAssemblies (2440ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (777ms)
-			ProcessInitializeOnLoadAttributes (1745ms)
-			ProcessInitializeOnLoadMethodAttributes (517ms)
-			AfterProcessingInitializeOnLoad (15ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (523ms)
+			ProcessInitializeOnLoadAttributes (1538ms)
+			ProcessInitializeOnLoadMethodAttributes (329ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 61.21 ms, found 10 plugins.
+		AwakeInstancesAfterBackupRestoration (40ms)
+Refreshing native plugins compatible for Editor in 30.23 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7475 unused Assets / (2.0 MB). Loaded Objects now: 8302.
-Memory consumption went from 151.9 MB to 149.9 MB.
-Total: 39.892100 ms (FindLiveObjects: 2.858500 ms CreateObjectMapping: 3.846700 ms MarkObjects: 23.718700 ms  DeleteObjects: 9.464300 ms)
+Unloading 7665 unused Assets / (6.0 MB). Loaded Objects now: 8479.
+Memory consumption went from 203.2 MB to 197.3 MB.
+Total: 27.161900 ms (FindLiveObjects: 1.892600 ms CreateObjectMapping: 2.348800 ms MarkObjects: 13.861100 ms  DeleteObjects: 9.056400 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 110524.051210 seconds.
-  path: Assets/Settings/DefaultVolumeProfile.asset
-  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00854700ddd4ea517eafedf8e6433edf') in 0.0760839 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.259924 seconds.
-  path: Assets/Scenes/04_HinjePoint.unity
-  artifactKey: Guid(e0fb3696095ef8e41b2377746d1f3fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/04_HinjePoint.unity using Guid(e0fb3696095ef8e41b2377746d1f3fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '287c421c3d3ed01ed24f460d54c66206') in 0.0012543 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.810112 seconds.
-  path: Assets/Scenes/04_HinjePoint.unity
-  artifactKey: Guid(e0fb3696095ef8e41b2377746d1f3fea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/04_HinjePoint.unity using Guid(e0fb3696095ef8e41b2377746d1f3fea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fcd8363e04dca38a771e67f86efc860e') in 0.125464 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.504686 seconds.
-  path: Assets/Scenes/04_HingeJoint.unity
-  artifactKey: Guid(e0fb3696095ef8e41b2377746d1f3fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/04_HingeJoint.unity using Guid(e0fb3696095ef8e41b2377746d1f3fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cde69e10b26322bbe8488e7682f49cd6') in 0.0015349 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.854213 seconds.
-  path: Assets/Scenes/04_HingeJoint.unity
-  artifactKey: Guid(e0fb3696095ef8e41b2377746d1f3fea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/04_HingeJoint.unity using Guid(e0fb3696095ef8e41b2377746d1f3fea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '632eb00cee2dd1f2da5cf935230bd30c') in 0.0339059 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.527534 seconds.
-  path: Assets/Scenes/04_HingeJoint 1.unity
-  artifactKey: Guid(c3c00f577ee05b64c8a4f17a9aea9066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/04_HingeJoint 1.unity using Guid(c3c00f577ee05b64c8a4f17a9aea9066) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59eb0a1223ccc5db8d44a60af9533256') in 0.0016132 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.527944 seconds.
-  path: Assets/Scenes/04_HingeJoint 2.unity
-  artifactKey: Guid(e9fa119fca00292449b7c33cec18fc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/04_HingeJoint 2.unity using Guid(e9fa119fca00292449b7c33cec18fc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be83cbac362c27da2b38f623b2d7edd4') in 0.0021447 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.788091 seconds.
-  path: Assets/Scenes/04_HingeJoint 1.unity
-  artifactKey: Guid(c3c00f577ee05b64c8a4f17a9aea9066) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/04_HingeJoint 1.unity using Guid(c3c00f577ee05b64c8a4f17a9aea9066) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ae12b7429f753c84afbf5e67aa18d1c') in 0.0393684 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.565679 seconds.
-  path: Assets/Scenes/Yun.unity
-  artifactKey: Guid(c3c00f577ee05b64c8a4f17a9aea9066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Yun.unity using Guid(c3c00f577ee05b64c8a4f17a9aea9066) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb502dea0232e30c4410bd6fe75c45e6') in 0.0013681 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.853026 seconds.
-  path: Assets/Scenes/Yun.unity
-  artifactKey: Guid(c3c00f577ee05b64c8a4f17a9aea9066) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Yun.unity using Guid(c3c00f577ee05b64c8a4f17a9aea9066) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd6123099d9d3c5e5a8ba8a10027e05b8') in 0.0346671 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.479006 seconds.
-  path: Assets/Scenes/Asa.unity
-  artifactKey: Guid(e9fa119fca00292449b7c33cec18fc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Asa.unity using Guid(e9fa119fca00292449b7c33cec18fc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88dd13134c4ba531c047acbb7ac74600') in 0.0011817 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.826563 seconds.
-  path: Assets/Scenes/Asa.unity
-  artifactKey: Guid(e9fa119fca00292449b7c33cec18fc42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Asa.unity using Guid(e9fa119fca00292449b7c33cec18fc42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '710a06d2f7dc3478e6d42282db318881') in 0.0382255 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
+Prepare: number of updated asset objects reloaded= 0
