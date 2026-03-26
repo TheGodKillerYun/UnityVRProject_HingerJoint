@@ -1,0 +1,2 @@
+C:\UTL\5\RV\UnityVRProject_HingerJoint\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\UTL\5\RV\UnityVRProject_HingerJoint\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
